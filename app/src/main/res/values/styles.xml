@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#FFD700</item>
+        <item name="colorControlActivated">#DCDCDC</item>
+    </style>
+
+    <style name="Normal_Margin_Style" parent="AppTheme">
+        <item name="android:layout_marginRight">@dimen/margin_right_16</item>
+        <item name="android:layout_marginLeft">@dimen/margin_left_16</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_8</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom_8</item>
+    </style>
+
+
+
+</resources>
